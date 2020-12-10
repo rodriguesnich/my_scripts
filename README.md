@@ -11,18 +11,21 @@
     - Web
     - PWA
 
-    Besides tecnical things this script includes some desktop prograns for general use like:
+</div>
+<div>
+ Besides tecnical things this script includes some desktop prograns for general use like:
 
-    * Frame-Shot          
-    * Fragments                 
-    * gThumb                    
-    * Lollypop                  
-    * Password Safe            
-    * Only Office               
+    * Frame-Shot
+    * Fragments
+    * gThumb
+    * Lollypop
+    * Password Safe
+    * Only Office
     * Back in Time
     * 4k Video Downloader
     * 4k Mp3 Downloader
     * Peek
     * What Ip
     * GreenWithEnvy
+
 </div>

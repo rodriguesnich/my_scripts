@@ -4,11 +4,12 @@
 
 <div>
     Im a programer beginer who is corrently interested in front end development learning:
-        - Python
-        - Javascript
-        - PHP
-        - Web
-        - PWA
+    - Different user levels and permissions
+    - Python
+    - Javascript
+    - PHP
+    - Web
+    - PWA
 </div>
 
 # :computer: Technologies

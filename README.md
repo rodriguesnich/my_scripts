@@ -4,13 +4,13 @@
 
 <div>
     Im a programer beginer who is corrently interested in front end development learning:
-
-    - Python
-    - Javascript
-    - PHP
-    - Web
-    - PWA
-
+    <ul>
+    <li>Python</li>
+    <li>Javascript</li>
+    <li>PHP</li>
+    <li>Web</li>
+    <li>PWA</li>
+    </ul>
 </div>
 <div>
  Besides tecnical things this script includes some desktop prograns for general use like:

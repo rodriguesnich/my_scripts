@@ -13,12 +13,12 @@
 
     Besides tecnical things this script includes some desktop prograns for general use like:
 
-    * Frame-Shot                * Discord
-    * Fragments                 * Franz
-    * gThumb                    * Davinci Resolve
-    * Lollypop                  * InkScape
-    * Password Safe             * PhotoGimp
-    * Only Office               * OBS
+    * Frame-Shot          
+    * Fragments                 
+    * gThumb                    
+    * Lollypop                  
+    * Password Safe            
+    * Only Office               
     * Back in Time
     * 4k Video Downloader
     * 4k Mp3 Downloader

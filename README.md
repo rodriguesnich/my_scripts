@@ -6,12 +6,13 @@
 
     Im a programer beginer who is corrently interested in front end development learning:
 
-    - Different user levels and permissions
     - Python
     - Javascript
     - PHP
     - Web
     - PWA
+
+    Besides tecnical things this script includes some desktop prograns for general use like:
 
 </div>
 

@@ -9,6 +9,12 @@ Im a programer beginer who is corrently interested in front end development lear
 - Web
 - PWA
 
+| Languages     |  Tools        |
+| ------------- |:-------------:|
+| Python        | VS Code       |
+| Javascript    | Beekeepe      |
+| PHP           | Postman       |
+
 Besides tecnical things this script includes some desktop prograns for general use like:
 
 * Frame-Shot                * Discord

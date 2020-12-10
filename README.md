@@ -1,0 +1,1 @@
+# My Pop!_OS linux auto setup script

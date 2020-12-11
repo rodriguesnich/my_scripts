@@ -17,15 +17,17 @@ Im a programer beginer who is corrently interested in front end development lear
 
 Besides tecnical things this script includes some desktop prograns for general use like:
 
-* Frame-Shot                * Discord
-* Fragments                 * Franz
-* gThumb                    
-* Lollypop                  
-* Password Safe            
-* Only Office               
-* Back in Time
-* 4k Video Downloader
-* 4k Mp3 Downloader
-* Peek
-* What Ip
-* GreenWithEnvy
+| GENERAL             | COMUNICATION | CREATE          | PROGRAMING  |
+|---------------------|--------------|-----------------|-------------|
+| Frame-Shot          | Discord      | Davinci Resolve | VS Code     |
+| Fragments           | Franz        | InkScape        | Beekeeper   |
+| gThumb              | Skype        | PhotoGimp       | Postman     |
+| Lollypop            |              | OBS             | Github      |
+| Password Safe       |              |                 | Virtual Box |
+| Only Office         |              |                 |             |
+| Back in Time        |              |                 |             |
+| 4k Video Downloader |              |                 |             |
+| 4k Mp3 Downloader   |              |                 |             |
+| Peek                |              |                 |             |
+| What Ip             |              |                 |             |
+| GreenWithEnvy       |              |                 |             |

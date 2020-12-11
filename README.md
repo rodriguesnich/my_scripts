@@ -1,6 +1,6 @@
 # My Pop!\_OS linux auto setup script
 
-# :pencil: For whom this script might work?
+## :pencil: For whom this script might work?
 Im a programer beginer who is corrently interested in front end development learning:
 
 - Python
@@ -8,12 +8,6 @@ Im a programer beginer who is corrently interested in front end development lear
 - PHP
 - Web
 - PWA
-
-| Languages     |  Tools        |
-| ------------- |:-------------:|
-| Python        | VS Code       |
-| Javascript    | Beekeepe      |
-| PHP           | Postman       |
 
 Besides tecnical things this script includes some desktop prograns for general use like:
 

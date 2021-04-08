@@ -13,13 +13,13 @@ Besides tecnical things this script includes some desktop prograns for general u
 
 | GENERAL             | COMUNICATION | CREATE          | PROGRAMING  |
 |---------------------|--------------|-----------------|-------------|
-| Frame-Shot          | Discord      | Davinci Resolve | VS Code     |
+| Brave               | Discord      | Peek            | VS Code     |
 | Fragments           | Franz        | InkScape        | Beekeeper   |
-| gThumb              |              | PhotoGimp       | Postman     |
-| Lollypop            |              | OBS             | Gitmerge    |
-| Password Safe       |              |                 | Virtual Box |
-| Back in Time        |              |                 |             |
-| 4k Video Downloader |              |                 |             |
+| Steam               |              | PhotoGimp       | Insominia   |
+| Password Safe       |              | OBS             | Sublimemerge|
+| Back in Time        |              | Flameshot       | Virtual Box |
+|                     |              | gThumb          | Firefox Dev.|
+| What Ip             |              |                 | Zeal        |
 | 4k Mp3 Downloader   |              |                 |             |
-| Peek                |              |                 |             |
-| What Ip             |              |                 |             |
+| 4k Video Downloader |              |                 |             |
+|                     |              |                 |             |

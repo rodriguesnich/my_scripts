@@ -18,8 +18,6 @@ Besides tecnical things this script includes some desktop prograns for general u
 | Steam               |              | PhotoGimp       | Insominia   |
 | Password Safe       |              | OBS             | Sublimemerge|
 | Back in Time        |              | Flameshot       | Virtual Box |
-|                     |              | gThumb          | Firefox Dev.|
-| What Ip             |              |                 | Zeal        |
-| 4k Mp3 Downloader   |              |                 |             |
+| What Ip             |              | gThumb          | Firefox Dev.|
+| 4k Mp3 Downloader   |              |                 | Zeal        |
 | 4k Video Downloader |              |                 |             |
-|                     |              |                 |             |

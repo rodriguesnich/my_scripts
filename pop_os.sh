@@ -88,24 +88,13 @@ sudo apt install discord -y
 echo "Installing Spotify"
 flatpak install flathub com.spotify.Client
 
-## Brave ##
-echo "Installing Brave"
-sudo apt install apt-transport-https curl gnupg -y
-
-curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
-
-echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-
-sudo apt update
-
-sudo apt install brave-browser -y
-
 ## Torrent ##
 echo "Installing Fragments Torrent"
 sudo snap install fragments
 
 ## Password ##
 flatpak install flathub org.gnome.PasswordSafe -y
+
 
 ## DESING ##
 
@@ -122,7 +111,7 @@ sudo snap install photogimp
 
 
 ## Pastas de Programacao ##
-mkdir/home/$USER/Dev
+mkdir/home/$USER/Code
 
 mkdir/home/$USER/Study
 

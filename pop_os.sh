@@ -17,6 +17,9 @@ sudo apt install snapd -y
 echo "Instalando Python3 e python3-pip"
 sudo apt install python3 python3-pip -y
 
+## add nodejs 14 repository
+curl --silent --location https://deb.nodesource.com/setup_14.x  | sudo bash -
+
 ## NodeJS ##
 echo "Instalando o NodeJS"
 sudo apt install nodejs -y

@@ -7,38 +7,43 @@ sudo rm /var/lib/dpkg/lock-frontend ; sudo rm /var/cache/apt/archives/lock ;
 sudo apt update -y
 
 ## Instalando Snap ##
-echo "Instalando Snap"
+echo "Adding Snap"
 sudo apt install snapd -y
 
 
 ## DEV ##
 
 ## Python3 e pip ##
-echo "Instalando Python3 e python3-pip"
+echo "Installing Python3 e python3-pip"
 sudo apt install python3 python3-pip -y
 
 ## add nodejs 14 repository
 curl --silent --location https://deb.nodesource.com/setup_14.x  | sudo bash -
 
 ## NodeJS ##
-echo "Instalando o NodeJS"
+echo "Installing o NodeJS"
 sudo apt install nodejs -y
 
 ## npm ##
-echo "Instalando npm"
+echo "Installing npm"
 sudo apt install npm -y
 
-echo "Atualizando Node"
+echo "Updating Node"
 sudo npm install -g n
 sudo n stable
 
 ## yarn ##
-echo "Instalando yarn"
+echo "Installing yarn"
 sudo npm install --global yarn
 
+## VS Codium ##
+echo "Installing VSCodium"
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg
+echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
+sudo apt update && sudo apt install codium
 
 ## VS Code ##
-echo "Instalando VS-Code"
+echo "Installing VS-Code"
 sudo apt install code -y
 
 ## Insominia ##
@@ -89,13 +94,15 @@ sudo apt install discord -y
 
 ## Spotify ##
 echo "Installing Spotify"
-flatpak install flathub com.spotify.Client
+##flatpak install flathub com.spotify.Client
+sudo apt install spotify-client 
 
 ## Torrent ##
 echo "Installing Fragments Torrent"
 sudo snap install fragments
 
 ## Password ##
+echo "Instaling Password Safe"
 flatpak install flathub org.gnome.PasswordSafe -y
 
 

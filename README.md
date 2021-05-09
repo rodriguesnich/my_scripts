@@ -5,19 +5,47 @@ These are some technologies that i am interested in, so if you have similar inte
 
 - Python
 - Javascript
-- PHP
 - Web
 - PWA
+- Mobile Apps
+- Simple APIs
 
 Besides tecnical things this script includes some desktop prograns for general use like:
 
-| GENERAL             | COMUNICATION | CREATE          | PROGRAMING  |
-|---------------------|--------------|-----------------|-------------|
-| Brave               | Discord      | Peek            | VS Code     |
-| Fragments           | Franz        | InkScape        | Beekeeper   |
-| Steam               |              | PhotoGimp       | Insominia   |
-| Password Safe       |              | OBS             | Sublimemerge|
-| Back in Time        |              | Flameshot       | Virtual Box |
-| What Ip             |              | gThumb          | Firefox Dev.|
-| 4k Mp3 Downloader   |              |                 | Zeal        |
-| 4k Video Downloader |              |                 |             |
+## General Use:
+
+- Chrome
+- Fragments
+- Steam
+- Password Safe
+- Back in Time
+- What Ip
+- 4k Mp3 Downloader
+- 4k Video Downloader
+
+## Comunication:
+
+- Discord
+- Chromium
+
+## Creation 
+
+- Peek
+- OBS
+- Flameshot
+- InkScape
+- PhotoGimp
+- gThumb
+
+## Programing
+
+- VS Code
+- VSCodium
+- Sublime Text
+- Sublimemerge
+- Insominia
+- Beekeeper
+- Firefox Dev
+- Zeal
+- GitIgnore
+- Virtual Box

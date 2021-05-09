@@ -28,9 +28,9 @@ sudo apt install nodejs -y
 echo "Installing npm"
 sudo apt install npm -y
 
-echo "Updating Node"
-sudo npm install -g n
-sudo n stable
+# echo "Updating Node"
+# sudo npm install -g n
+# sudo n stable
 
 ## yarn ##
 echo "Installing yarn"
@@ -46,14 +46,18 @@ sudo apt update && sudo apt install codium
 echo "Installing VS-Code"
 sudo apt install code -y
 
+## Sublime Text ##
+echo "Installing Sublime Text"
+sudo apt install sublime-text -y
+
 ## Insominia ##
 echo "Instaling Insominia"
 echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
     | sudo tee -a /etc/apt/sources.list.d/insomnia.list
 wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
     | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install insomnia -y
+sudo apt update
+sudo apt install insomnia -y
 
 ## Beekeeper ##
 echo "Instaling Beekeeper-Studio"
@@ -71,6 +75,14 @@ sudo apt-get install sublime-merge
 echo "Installing Zeal"
 sudo apt-get install zeal
 
+## Virtual Box ##
+echo "Installing Virtualbox"
+sudo apt install virtualbox -y
+
+## GitIgnore ##
+echo "Installing Git Ignore"
+flatpak install flathub com.github.arshubham.gitignore 
+
 ## FireFox Dev ## 
 echo "Installing Firefox Developer"
 wget -c "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=pt-BR" -O firefox-developer.tar.bz2
@@ -86,7 +98,7 @@ echo -e '[Desktop Entry]\n Version=59.0.3\n Encoding=UTF-8\n Name=Mozilla Firefo
 
 ## Tweaks##
 echo "Installing Gnome Tweaks"
-sudo apt install gnome-tweaks
+sudo apt install gnome-tweaks -y
 
 ## Discord ##
 echo "Installing Discord"
@@ -95,7 +107,7 @@ sudo apt install discord -y
 ## Spotify ##
 echo "Installing Spotify"
 ##flatpak install flathub com.spotify.Client
-sudo apt install spotify-client 
+sudo apt install spotify-client -y
 
 ## Torrent ##
 echo "Installing Fragments Torrent"
@@ -104,6 +116,18 @@ sudo snap install fragments
 ## Password ##
 echo "Instaling Password Safe"
 flatpak install flathub org.gnome.PasswordSafe -y
+
+## Backup ##
+echo "Installing Back in Time"
+sudo apt install backintime-common -y
+
+## What Ip ##
+echo "Installing What Ip"
+flatpak install flathub org.gabmus.whatip
+
+## gThumb ##
+echo "Installing gThumb"
+sudo apt install gthumb -y
 
 
 ## DESING ##
@@ -114,11 +138,27 @@ sudo apt install inkscape -y
 
 ## Photo-Gimp ##
 echo "Installing Photo-Gimp"
-sudo snap install photogimp
+sudo snap install photogimp -y
+
+## OBS ##
+echo "Installing OBS Studio"
+sudo apt install obs-studio -y
+
+
+## Flameshot ##
+echo "Installing Flameshot"
+sudo apt install flameshot -y
+
+## Peek ##
+echo "Installing Peek"
+sudo apt install peek -y
+
+## Color Picker ##
+echo "Installing Color Picker"
+sudo apt install colorpicker
 
 
 ## Criacao de Pastas ##
-
 
 ## Pastas de Programacao ##
 mkdir/home/$USER/Code
@@ -144,12 +184,15 @@ wget -c https://dl.4kdownload.com/app/4kyoutubetomp3_3.13.2-1_amd64.deb?source=w
 
 ## Steam ##
 echo "Baixando Steam"
-https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
+wget -c https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
 
 ## Instala todos os .deb ##
 echo "Instalando todos os Pacotes .deb"
-sudo dpkg -i *.deb
+sudo dpkg -i *.deb -y
 
+## Android Studio ##
+echo "Installing AndroidStudio"
+flatpak install flathub com.google.AndroidStudio
 
 ## Finalizando Script ##
 echo "finalizando script..."

@@ -36,32 +36,18 @@ sudo apt install npm -y
 echo "Installing yarn"
 sudo npm install --global yarn
 
-## VS Codium ##
-echo "Installing VSCodium"
-wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg
-echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
-sudo apt update && sudo apt install codium
-
 ## VS Code ##
 echo "Installing VS-Code"
 sudo apt install code -y
 
 ## Sublime Text ##
 echo "Installing Sublime Text"
-sudo apt install sublime-text -y
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
 
-## Insominia ##
-echo "Instaling Insominia"
-echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
-    | sudo tee -a /etc/apt/sources.list.d/insomnia.list
-wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
-    | sudo apt-key add -
-sudo apt update
-sudo apt install insomnia -y
-
-## Beekeeper ##
-echo "Instaling Beekeeper-Studio"
-sudo snap install beekeeper-studio
 
 ## Sublime Merge ##
 echo " Sublime Merge"
@@ -71,9 +57,26 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt-get update
 sudo apt-get install sublime-merge
 
+
+## Insominia ##
+#echo "Instaling Insominia"
+#echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
+#    | sudo tee -a /etc/apt/sources.list.d/insomnia.list
+#wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
+#    | sudo apt-key add -
+#sudo apt update
+#sudo apt install insomnia -y
+
+## Postman ##
+flatpak install flathub com.getpostman.Postman -y
+
+## Beekeeper ##
+echo "Instaling Beekeeper-Studio"
+sudo snap install beekeeper-studio -y
+
 ## Zeal ##
 echo "Installing Zeal"
-sudo apt-get install zeal
+sudo apt install zeal -y
 
 ## Virtual Box ##
 echo "Installing Virtualbox"
@@ -106,8 +109,7 @@ sudo apt install discord -y
 
 ## Spotify ##
 echo "Installing Spotify"
-##flatpak install flathub com.spotify.Client
-sudo apt install spotify-client -y
+flatpak install flathub com.spotify.Client -y
 
 ## Torrent ##
 echo "Installing Fragments Torrent"
@@ -120,10 +122,6 @@ flatpak install flathub org.gnome.PasswordSafe -y
 ## Backup ##
 echo "Installing Back in Time"
 sudo apt install backintime-common -y
-
-## What Ip ##
-echo "Installing What Ip"
-flatpak install flathub org.gabmus.whatip
 
 ## gThumb ##
 echo "Installing gThumb"
@@ -155,7 +153,9 @@ sudo apt install peek -y
 
 ## Color Picker ##
 echo "Installing Color Picker"
-sudo apt install colorpicker
+sudo apt install colorpicker -y
+
+##Pimeee, mussica)
 
 
 ## Criacao de Pastas ##
@@ -192,7 +192,7 @@ sudo dpkg -i *.deb -y
 
 ## Android Studio ##
 echo "Installing AndroidStudio"
-flatpak install flathub com.google.AndroidStudio
+flatpak install flathub com.google.AndroidStudio -y
 
 ## Finalizando Script ##
 echo "finalizando script..."

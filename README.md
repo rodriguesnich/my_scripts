@@ -5,10 +5,9 @@ These are some technologies that i am interested in, so if you have similar inte
 
 - Python
 - Javascript
+- C#
 - Web
-- PWA
-- Mobile Apps
-- Simple APIs
+- APIs
 
 Besides tecnical things this script includes some desktop prograns for general use like:
 
@@ -20,13 +19,7 @@ Besides tecnical things this script includes some desktop prograns for general u
 - Password Safe
 - Back in Time
 - What Ip
-- 4k Mp3 Downloader
-- 4k Video Downloader
-
-## Comunication:
-
 - Discord
-- Chromium
 
 ## Creation 
 
@@ -40,7 +33,6 @@ Besides tecnical things this script includes some desktop prograns for general u
 ## Programing
 
 - VS Code
-- VSCodium
 - Sublime Text
 - Sublimemerge
 - Insominia
@@ -48,4 +40,3 @@ Besides tecnical things this script includes some desktop prograns for general u
 - Firefox Dev
 - Zeal
 - GitIgnore
-- Virtual Box

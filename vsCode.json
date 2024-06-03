@@ -1,0 +1,16 @@
+{
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+      "<C-c>": false,
+      "<C-v>": false,
+      "<C-x>": false,
+      "<C-w>": false,
+      "<C-p>": false,
+      "<C-S-e>": false,
+      "<C-n>": false
+    },
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "gutter",
+    "explorer.compactFolders": false,
+    "workbench.editor.labelFormat": "short"
+}
